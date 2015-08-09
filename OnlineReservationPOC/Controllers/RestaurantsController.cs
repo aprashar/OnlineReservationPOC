@@ -9,7 +9,7 @@ using System.Web.Http;
 
 namespace OnlineReservationPOC.Controllers
 {
-    public class RestaurantController :ApiController
+    public class RestaurantsController :ApiController
     {
         //api/Restaurants
         public HttpResponseMessage Get()
