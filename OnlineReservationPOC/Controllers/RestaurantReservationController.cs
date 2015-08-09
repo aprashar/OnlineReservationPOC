@@ -12,7 +12,7 @@ namespace OnlineReservationPOC.Controllers
 
         public RestaurantReservationController(Restaurant selectedRestaurant)
         {
-            this.restaurant = selectedRestaurant
+            this.restaurant = selectedRestaurant;
         }
     }
 }
