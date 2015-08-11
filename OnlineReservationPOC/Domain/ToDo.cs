@@ -5,7 +5,15 @@ using System.Web;
 
 namespace OnlineReservationPOC.Domain
 {
-    public class ThingsToDo
+    public class ToDo 
     {
+        public ToDo(Guid Id)
+        {
+            this.Id = Id;
+        }
+        public Guid Id { get; }
+        public string ActivityName { get; set; }
+        public string ActivityDesc { get; set; }
+
     }
 }

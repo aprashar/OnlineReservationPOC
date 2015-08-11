@@ -88,9 +88,11 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\RestaurantsController.cs" />
     <Compile Include="Controllers\RestaurantReservationController.cs" />
+    <Compile Include="Controllers\ToDoController.cs" />
     <Compile Include="Domain\Reservation.cs" />
     <Compile Include="Domain\Restaurant.cs" />
     <Compile Include="Domain\RestaurantReservation.cs" />
+    <Compile Include="Domain\ToDo.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -98,6 +100,7 @@
     <Compile Include="Resources\ILinkable.cs" />
     <Compile Include="Resources\Link.cs" />
     <Compile Include="Resources\Resource.cs" />
+    <Compile Include="Resources\ToDo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />

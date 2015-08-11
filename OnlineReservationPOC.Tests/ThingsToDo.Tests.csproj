@@ -52,9 +52,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\OnlineReservationPOC\OnlineReservationPOC.csproj">
+    <ProjectReference Include="..\OnlineReservationPOC\ThingsToDo.csproj">
       <Project>{7EC72B99-E599-47BC-9D92-0EC4698EB68B}</Project>
-      <Name>OnlineReservationPOC</Name>
+      <Name>ThingsToDo</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />

@@ -8,7 +8,7 @@ namespace OnlineReservationPOC.Resources
 {
     interface ILinkable
     {
-        public Link Self { get; set; }
-        public IEnumerable<Link> Links { get; set; }
+        Link Self { get; set; }
+        IEnumerable<Link> Links { get; set; }
     }
 }

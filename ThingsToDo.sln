@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineReservationPOC", "OnlineReservationPOC\OnlineReservationPOC.csproj", "{7EC72B99-E599-47BC-9D92-0EC4698EB68B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThingsToDo", "OnlineReservationPOC\ThingsToDo.csproj", "{7EC72B99-E599-47BC-9D92-0EC4698EB68B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineReservationPOC.Tests", "OnlineReservationPOC.Tests\OnlineReservationPOC.Tests.csproj", "{74C996FE-185A-4DF6-919F-317250443B95}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThingsToDo.Tests", "OnlineReservationPOC.Tests\ThingsToDo.Tests.csproj", "{74C996FE-185A-4DF6-919F-317250443B95}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
