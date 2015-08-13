@@ -5,9 +5,8 @@ using System.Web;
 
 namespace OnlineReservationPOC.Resources
 {
-    public class ToDo:Resource
+    public class ListOfToDosResource
     {
-        public string ActivityName { get; set; }
-        public string ActivityDesc { get; set; }
+        IEnumerable<ToDoResource> ToDos { get; set; }
     }
 }

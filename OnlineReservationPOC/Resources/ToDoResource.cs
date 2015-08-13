@@ -3,14 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace OnlineReservationPOC.Domain
+namespace OnlineReservationPOC.Resources
 {
-    public class ToDo 
+    public class ToDoResource:Resource
     {
-        public int Id { get; set; }
+        public int Id { get; }
         public string ActivityName { get; set; }
         public string ActivityDesc { get; set; }
-
-
     }
 }
