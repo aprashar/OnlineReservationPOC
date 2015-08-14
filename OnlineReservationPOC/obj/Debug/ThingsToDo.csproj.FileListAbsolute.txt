@@ -1,4 +1,3 @@
-c:\D_drive\Temp\OnlineReservationPOC\OnlineReservationPOC\obj\Debug\ThingsToDo.csprojResolveAssemblyReference.cache
 c:\D_drive\Temp\OnlineReservationPOC\OnlineReservationPOC\obj\Debug\OnlineReservationPOC.dll
 c:\D_drive\Temp\OnlineReservationPOC\OnlineReservationPOC\obj\Debug\OnlineReservationPOC.pdb
 c:\D_drive\Temp\OnlineReservationPOC\OnlineReservationPOC\bin\roslyn\csc.exe
@@ -26,3 +25,4 @@ c:\D_drive\Temp\OnlineReservationPOC\OnlineReservationPOC\bin\Newtonsoft.Json.xm
 c:\D_drive\Temp\OnlineReservationPOC\OnlineReservationPOC\bin\System.Net.Http.Formatting.xml
 c:\D_drive\Temp\OnlineReservationPOC\OnlineReservationPOC\bin\System.Web.Http.xml
 c:\D_drive\Temp\OnlineReservationPOC\OnlineReservationPOC\bin\System.Web.Http.WebHost.xml
+C:\D_drive\Temp\OnlineReservationPOC\OnlineReservationPOC\obj\Debug\ThingsToDo.csprojResolveAssemblyReference.cache
