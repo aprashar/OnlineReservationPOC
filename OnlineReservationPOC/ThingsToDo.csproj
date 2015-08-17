@@ -88,8 +88,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
-    <Compile Include="Controllers\RestaurantsController.cs" />
-    <Compile Include="Controllers\RestaurantReservationController.cs" />
     <Compile Include="Controllers\ToDosController.cs" />
     <Compile Include="Domain\ListOfToDos.cs" />
     <Compile Include="Domain\Reservation.cs" />

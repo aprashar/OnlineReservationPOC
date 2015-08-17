@@ -21,20 +21,7 @@ namespace OnlineReservationPOC
             _apiRouteTable = apiRouteTable;
         }
 
-        /// <summary>
-        /// Resource linker only supports generating Uris which have a route template which matches the parameters you pass in to
-        /// the action.
-        /// For example if your action expression is
-        /// for type of JobController (controller => controller.Get(jobId))
-        /// then the matching route would need to define in it template {jobId} 'api/jobs/{jobId}
-        /// Query string generation is not supported.
-        /// </summary>
-        /// <typeparam name="T">The type of the Api controller you are calling</typeparam>
-        /// <param name="method">An expression to generate a url for</param>
-        /// <param name="rel">The description of this links relation to current document</param>
-        /// <param name="name">The name of the link relation</param>
-        /// <param name="httpMethod"> </param>
-        /// <returns>A resource link relation</returns>
+        
         public Link GetResourceLink<T>(Expression<Action<T>> method, string rel, string name, HttpMethod httpMethod) where T : ApiController
         {
             string routeNameForAction = ReflectRouteNameForApiAction(method);

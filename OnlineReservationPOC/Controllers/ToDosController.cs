@@ -18,6 +18,7 @@ namespace OnlineReservationPOC.Controllers
             return Request.CreateResponse(HttpStatusCode.OK, toDos);
         }
 
+        //api/ToDos/{Id}
         public HttpResponseMessage Get(int Id)
         {
             HttpResponseMessage response;
